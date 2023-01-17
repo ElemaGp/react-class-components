@@ -1,12 +1,13 @@
 import './App.css';
 import React from 'react';
+import Content from "./component/content/Content"
 
 class App extends React.Component {
 
   render(){
     return (
       <div className="App">
-        Okay
+        <Content children="Hello Bryan"/>
       </div>
     );
   }
